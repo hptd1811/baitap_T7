@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ART PICTURE"
+            android:textSize="50sp"
+            android:textStyle="bold">
+        </TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/anh88">
+        </ImageView>
+        <TextView
+            android:textColor="#FF3333"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textSize="35sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**Membership is FREE !"
+            android:textSize="15sp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+            android:hint="1811505310307@sv.ute.udn.vn" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="pass"
+            android:inputType="textPassword">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <CheckBox
+            android:background="#00FF00"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <TextView
+            android:background="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree with the terms of the app">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="100dp"
+            android:id="@+id/bt_ql_sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Quay lại"
+            android:background="#fff"
+            android:textColor="#111">
+        </Button>
+        <Button
+            android:layout_marginLeft="15sp"
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Login"
+            android:background="@drawable/buttondangki">
+        </Button>
+
+    </LinearLayout>>
+
+</LinearLayout>
